@@ -1,7 +1,4 @@
-Q: Java program to print numbers from 1 to 100 without using loops.
-  -> To print numbers from 1 to 100 without using loops, we can make use of recursion.
-    In recursion, a method calls itself repeatedly until a base condition is met. Here, we can recursively print the numbers from 1 to 100.
-
+//Java program to print numbers from 1 to 100 without using loops.
 public class TrickyProg3{
     public static void main(String[] args){
         //Start recursion with the first number(1)
@@ -24,6 +21,12 @@ public class TrickyProg3{
 }
 
 
+
+Explaination: 
+ -> To print numbers from 1 to 100 without using loops, we can make use of recursion.
+    In recursion, a method calls itself repeatedly until a base condition is met. Here, we can recursively print the numbers from 1 to 100.
+
+  
 Flowchart Description:
   1. Start
   2. Call Recursive Method (printNumbers) with n = 1
