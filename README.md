@@ -1,2 +1,2 @@
-# DailyPrograms
-This daily practice programs will be the part of my journey to prepare thoroughly for upcoming placements and technical interviews.
+In this repository, I will consistently update tricky coding questions commonly asked in various technical interviews. My focus is on gaining a deeper understanding of algorithms, data structures, and optimization techniques, while enhancing my problem-solving skills through consistent practice. By tackling these challenges daily, My aim is to not only improve my coding proficiency but also build confidence in handling complex interview scenarios. This journey is a crucial part of my preparation for upcoming placements and technical interviews, helping me stay on track and continually refine my approach to problem-solving.
+Subhra Kinkar (Date: 15/10/2024)
