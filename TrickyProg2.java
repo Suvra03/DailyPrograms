@@ -6,6 +6,7 @@ Q: Java program to check whether a number is even or odd without using the modul
 	For odd numbers, the result will be 1.
 
 	
+	
 import java.util.Scanner;
 
 public class TrickyProg2{
@@ -32,3 +33,28 @@ public class TrickyProg2{
     }
 }
 
+
+
+Flowchart Description:
+	1. Start
+	2. Input Number (n)
+	3. Check (n & 1)
+		If (n & 1) == 0, then it's even.
+		Else, it's odd.
+	4. Display Result
+	5. End
+
+Flowchart: 
+	Start
+	    ↓
+	Input Number (n)
+	    ↓
+	Check (n & 1) == 0
+	    ↓
+	If True:
+	    Print "Even"
+	    ↓
+	Else:
+	    Print "Odd"
+	    ↓
+	End
