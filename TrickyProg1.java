@@ -1,4 +1,4 @@
-Q: Program: Java program to check if a given year is a leap year without using '%' Operator.
+//Java program to check if a given year is a leap year without using '%' Operator.
 
 import java.util.Scanner;
 
@@ -40,3 +40,51 @@ public class TrickyProg1{
         scanner.close();
     }
 }
+
+
+
+Flowchart Description:
+    1. Start: Begin the process.
+    2. Input Year: Read the year from the user.
+    3. Call isLeapYear(year): Invoke the method to check if the year is a leap year.
+    4. Check Divisibility by 4:
+        If Yes, proceed to check divisibility by 100.
+        If No, return False (the year is not a leap year).
+    5. Check Divisibility by 100:
+        If Yes, proceed to check divisibility by 400.
+        If No, return True (the year is a leap year).
+    6. Check Divisibility by 400:
+        If Yes, return True (the year is a leap year).
+        If No, return False (the year is not a leap year).
+    7. Output Result: Display whether the year is a leap year or not.
+    8. End: Terminate the program.
+
+Flowchart: 
+        Start
+            ↓
+        Input Year
+            ↓
+        Call isLeapYear(year)
+                ↓
+            Is year divisible by 4?
+                ↓
+               Yes
+                ↓
+            Is year divisible by 100?
+                ↓
+               Yes
+                ↓
+            Is year divisible by 400?
+                ↓
+               Yes             Noo
+                ↓               ↓
+            Return True     Return False
+            ↓
+           Noo
+            ↓
+        Return False
+            ↓
+        Output result
+            ↓
+         End
+
