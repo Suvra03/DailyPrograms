@@ -1,12 +1,4 @@
-Q: Java program to check whether a number is even or odd without using the modulus(%) operator.
--> This program can be done using Bitwise AND(&) operator. 
-Bitwise AND(&): A number is even if its least significant bit (rightmost bit) is 0, and odd if it is 1.
-By performing a bitwise AND operation between the number and 1, we can check the least significant bit.
-For even numbers, the result will be 0.
-For odd numbers, the result will be 1.
-
-	
-	
+// Java program to check whether a number is even or odd without using the modulus(%) operator.
 import java.util.Scanner;
 
 public class TrickyProg2{
@@ -34,6 +26,14 @@ public class TrickyProg2{
 }
 
 
+
+Explaination: 
+-> This program can be done using Bitwise AND(&) operator. 
+Bitwise AND(&): A number is even if its least significant bit (rightmost bit) is 0, and odd if it is 1.
+By performing a bitwise AND operation between the number and 1, we can check the least significant bit.
+For even numbers, the result will be 0.
+For odd numbers, the result will be 1.
+	
 
 Flowchart Description:
 	1. Start
