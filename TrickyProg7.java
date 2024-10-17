@@ -53,3 +53,23 @@ public class TrickyProg7{
             If the current number is smaller than largest but larger than secondLargest, we update secondLargest to be the current number.
       -> After the loop ends, secondLargest contains the second largest number.
 
+
+//Step By Step Flowchart:
+    1. Start: The program execution begins.
+    2. Input the Number of Elements (n): The user provides the number of elements in the list.
+    3. Initialize Variables:
+            largest is initialized to Integer.MIN_VALUE.
+            secondLargest is initialized to Integer.MIN_VALUE.
+    4. Input the Array Elements: The user inputs the array of numbers.
+    5. Check for Each Number:
+            Is the number greater than largest?
+               -> If Yes, update secondLargest = largest and largest = number.
+               -> If No, check:
+
+            Is the number greater than secondLargest and not equal to largest?
+                -> If Yes, update secondLargest = number.
+    
+    6. Repeat for All Numbers: Go back and process the next number until all numbers are checked.
+    7. Output the secondLargest: Once the loop ends, output the second largest number.
+    8. End: The program finishes execution.
+      
