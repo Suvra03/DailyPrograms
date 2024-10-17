@@ -34,20 +34,18 @@ getStringLength(String str):
     4. Finally, the method returns the value of length, which is the total number of characters in the string.
 
 //Step By Step Flowchart:
-    1. Start: The program execution begins.
-    2. Input the Number of Elements (n): The user provides the number of elements in the list.
-    3. Initialize Variables:
-            largest is initialized to Integer.MIN_VALUE.
-            secondLargest is initialized to Integer.MIN_VALUE.
-    4. Input the Array Elements: The user inputs the array of numbers.
-    5. Check for Each Number:
-            Is the number greater than largest?
-               -> If Yes, update secondLargest = largest and largest = number.
-               -> If No, check:
-
-            Is the number greater than secondLargest and not equal to largest?
-                -> If Yes, update secondLargest = number.
+    1. Start: The program begins execution.
+    2. Input the String: The user is prompted to input the string for which the length needs to be calculated.
+    3. Initialize length = 0: A variable length is initialized to 0. This will keep track of the number of characters encountered.
+    4. Check for a Character at Index length:
+            -> The program checks whether there is a valid character at the index represented by the length variable.
     
-    6. Repeat for All Numbers: Go back and process the next number until all numbers are checked.
-    7. Output the secondLargest: Once the loop ends, output the second largest number.
-    8. End: The program finishes execution.
+            -> If Yes (the character exists):
+                    Increment length by 1, since a valid character was found.
+                    Go back to the check and repeat for the next index.
+    
+            -> If No (there is no character at that index):
+                    Exit the loop since the end of the string has been reached.
+    
+    5. Output the Value of length: Once the loop finishes, the final value of length is output, representing the total number of characters in the string.
+    6. End: The program concludes.
